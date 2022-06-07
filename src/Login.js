@@ -44,7 +44,7 @@ const Login = () => {
           <>
             <Title name="Login" />
             <MicrosoftLogin
-              clientId="fef75ba3-3281-4d23-9f7b-b5df41c77caa"
+              clientId="4914e9b2-84a5-4ecf-811c-b8d7c16d66c2"
               authCallback={authHandler}
             />
           </>
