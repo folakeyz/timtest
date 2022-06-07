@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/459724.png);
+    display: flex;
+}
+
+.loginContainer {
+    width: 25%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+.titleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.titleContainer h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.inputContainer {
+    width: 100%;
+    display: flex;
+    padding: .5rem 1rem;
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 1rem;
+}
+
+.inputContainer input {
+    width: 100%;
+    height: 3rem;
+    padding: .5rem 1rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.inputContainer input::placeholder {
+    color: white;
+}
+
+.bgNone {
+    background: none;
+    padding: 0;
+}
+
+.inputContainer button {
+    width: 100%;
+    height: 4rem;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yellow {
+    background: yellow;
+    color: black;
+}
+
+.red {
+    background: crimson;
+    color: white;
+}
+
+.white {
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+}
