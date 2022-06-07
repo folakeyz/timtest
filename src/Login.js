@@ -1,23 +1,23 @@
-import { Link } from "react-router-dom";
-import Button from "./components/Button";
-import TextBox from "./components/TextBox";
+// import { Link } from "react-router-dom";
+// import Button from "./components/Button";
+// import TextBox from "./components/TextBox";
 import Title from "./components/Title";
 import MicrosoftLogin from "react-microsoft-login";
 import { useState } from "react";
 
 const Login = () => {
-  const [msg, setMsg] = useState("");
+  // const [msg, setMsg] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
   //   Microsoft SSO
   const authHandler = (err, data, msal) => {
     if (err) {
-      setMsg(err.message);
+      // setMsg(err.message);
       sessionStorage.clear();
     }
     if (data) {
-      const accessToken = data.accessToken;
+      // const accessToken = data.accessToken;
       setName(data.account.name);
       setEmail(data.account.userName);
     }
